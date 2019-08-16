@@ -1,2 +1,2 @@
 # dragonbook
-Solving exercises from "Compilers: Principles, Techniques, and Tools"
+Решаю задачи из книги "Compilers: Principles, Techniques, and Tools"
