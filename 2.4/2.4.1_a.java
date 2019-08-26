@@ -46,24 +46,23 @@ class Analyzer {
         next();
         s();
         s();
-        ident -= 1;
         break;
 
       case '-':
         next();
         s();
         s();
-        ident -= 1;
         break;
       
       case 'a':
         next();
-        ident -= 1;
         break;
 
       default:
         throw new Exception("unknown character \"" + lookahead() + "\"");
     }
+
+    ident -= 1;
   }
 }
 
